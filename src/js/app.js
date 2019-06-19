@@ -27,4 +27,19 @@ $(document).ready(function(){
       alert('errore');
     }
   })
+// ricerca per titolo
+  $('.sel_artista').keyup(function(){
+
+    var album_ricercato = $(this).val().toLowerCase();
+
+    $('.container_disco').each(function(){
+      var album = $(this).find('.titolo').text().toLowerCase();
+
+      if(album.includes(album_ricercato)){
+        $(this).show();
+      }else{
+        $(this).hide();
+      }
+    })
+  })
 });

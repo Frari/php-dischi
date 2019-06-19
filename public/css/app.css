@@ -4,6 +4,25 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #3b658e;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #1d1f21;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+
 .container {
   width: 80%;
   height: 100vh;
@@ -14,6 +33,7 @@
           justify-content: center;
   -webkit-flex-wrap: wrap;
           flex-wrap: wrap;
+  margin-top: 100px;
 }
 
 .container_disco {
@@ -41,5 +61,25 @@
 .container_disco img {
   width: 225px;
   height: 225px;
+}
+
+.container_input_artista {
+  margin-right: 20px;
+}
+
+.container_input_artista .sel_artista {
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+
+.container_input_artista .but_sel_artista {
+  width: 50px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 

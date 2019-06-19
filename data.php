@@ -3,63 +3,63 @@
 $dischi = [
   [
     'cover' => 'img/cov1.jpg',
-    'titolo' => 'nome disco',
-    'artista' => 'nome cantante',
-    'anno' => 'anno uscita disco'
+    'titolo' => 'Gekissimo',
+    'artista' => 'Pink Floyd',
+    'anno' => '1970'
   ],
   [
     'cover' => 'img/cov2.jpg',
-    'titolo' => 'nome disco',
-    'artista' => 'nome cantante',
-    'anno' => 'anno uscita disco'
+    'titolo' => 'Art Record Covers',
+    'artista' => 'John Lennon',
+    'anno' => '1970'
   ],
   [
     'cover' => 'img/cov3.jpg',
-    'titolo' => 'nome disco',
-    'artista' => 'nome cantante',
-    'anno' => 'anno uscita disco'
+    'titolo' => 'London Calling',
+    'artista' => 'The Clash',
+    'anno' => '1972'
   ],
   [
     'cover' => 'img/cov4.png',
-    'titolo' => 'nome disco',
-    'artista' => 'nome cantante',
-    'anno' => 'anno uscita disco'
+    'titolo' => 'American Idiot',
+    'artista' => 'Green Day',
+    'anno' => '2000'
   ],
   [
     'cover' => 'img/cov5.jpg',
-    'titolo' => 'nome disco',
-    'artista' => 'nome cantante',
-    'anno' => 'anno uscita disco'
+    'titolo' => 'A fifth of beethoven',
+    'artista' => 'Walter Murphy',
+    'anno' => '1980'
   ],
   [
     'cover' => 'img/cov6.jpg',
-    'titolo' => 'nome disco',
-    'artista' => 'nome cantante',
-    'anno' => 'anno uscita disco'
+    'titolo' => 'The face',
+    'artista' => 'The undefined',
+    'anno' => '1990'
   ],
   [
     'cover' => 'img/cov7.jpg',
-    'titolo' => 'nome disco',
-    'artista' => 'nome cantante',
-    'anno' => 'anno uscita disco'
+    'titolo' => 'The complete collection',
+    'artista' => 'The Rolling Stones',
+    'anno' => '2013'
   ],
   [
     'cover' => 'img/cov8.jpg',
-    'titolo' => 'nome disco',
-    'artista' => 'nome cantante',
-    'anno' => 'anno uscita disco'
+    'titolo' => 'Hot Space',
+    'artista' => 'The Queen',
+    'anno' => '1986'
   ],
   [
     'cover' => 'img/cov9.jpg',
-    'titolo' => 'nome disco',
-    'artista' => 'nome cantante',
-    'anno' => 'anno uscita disco'
+    'titolo' => 'Rock or Bust',
+    'artista' => 'AC/DC',
+    'anno' => '2005'
   ],
   [
     'cover' => 'img/cov10.jpg',
-    'titolo' => 'nome disco',
-    'artista' => 'nome cantante',
-    'anno' => 'anno uscita disco'
+    'titolo' => 'Aladdin Sane',
+    'artista' => 'David Bowie',
+    'anno' => '1975'
   ]
 ];
 
