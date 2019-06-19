@@ -20,7 +20,7 @@ $(document).ready(function(){
           anno: disco['anno']
         };
         var html = template(context);
-        $('container').append(html);
+        $('.container').append(html);
       }
     },
     'error': function(){

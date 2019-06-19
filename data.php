@@ -33,7 +33,7 @@ $dischi = [
   ],
   [
     'cover' => 'img/cov6.jpg',
-    'titolontitolo' => 'nome disco',
+    'titolo' => 'nome disco',
     'artista' => 'nome cantante',
     'anno' => 'anno uscita disco'
   ],
@@ -52,7 +52,7 @@ $dischi = [
   [
     'cover' => 'img/cov9.jpg',
     'titolo' => 'nome disco',
-    'nome cant' => 'nome cantante',
+    'artista' => 'nome cantante',
     'anno' => 'anno uscita disco'
   ],
   [

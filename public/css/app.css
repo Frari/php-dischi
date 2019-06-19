@@ -1,19 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container {
   width: 80%;
   height: 100vh;
   margin: 0 auto;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 
 .container_disco {
+  width: 250px;
+  height: 350px;
   border: 1px solid black;
   border-radius: 5px;
   padding: 10px;
   margin: 10px;
   float: left;
   background-color: #303c51;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-flex-direction: column;
+          flex-direction: column;
 }
 
 .container_disco p {
   color: white;
+  margin-bottom: 10px;
+}
+
+.container_disco img {
+  width: 225px;
+  height: 225px;
 }
 

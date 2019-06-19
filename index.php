@@ -18,14 +18,14 @@ Utilizzare: Html, Sass, JS, jQuery, handlebars, Php -->
       /*foreach ($dischi as $key => $value) { ?>
         <div class="container_disco">
           <img src="<?php echo $value['cover'] ?>" alt=""><br>
-          <p><?php echo $value['nome disc'] ?></p>
-          <p><?php echo $value['nome cant'] ?></p>
+          <p><?php echo $value['titolo'] ?></p>
+          <p><?php echo $value['artista'] ?></p>
           <p><?php echo $value['anno'] ?></p>
         </div>
     <?php }*/
 
      ?>
-     <div class="container">       
+     <div class="container">
      </div>
      <script id="template-disco" type="text/x-handlebars-template">
        <div class="container_disco">
