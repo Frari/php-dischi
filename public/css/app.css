@@ -1,0 +1,13 @@
+.container_disco {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+  background-color: #303c51;
+}
+
+.container_disco p {
+  color: white;
+}
+
